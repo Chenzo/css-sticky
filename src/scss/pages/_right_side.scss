@@ -57,6 +57,8 @@
         nav {
             position: absolute;
             right: 0px;
+            overflow: hidden;
+            
             a {
                 color: $gold;
                 display: block;
@@ -67,6 +69,11 @@
                 text-decoration: none;
                 font-weight: 700;
                 margin-bottom: 10px;
+                transform: translateX(165px);
+
+                &:hover {
+                    transform: translateX(0px)
+                }
             }
         }
     }
