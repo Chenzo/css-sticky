@@ -45,13 +45,18 @@
     }
 
 
-
+    .stick_in_here {
+        position: relative;
+    }
 
 
     .sicky_holder {
+        position: sticky;
+        top: 0px;
 
-        
         nav {
+            position: absolute;
+            right: 0px;
             a {
                 color: $gold;
                 display: block;
